@@ -8,11 +8,58 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-light bg-light">
-        <a class="navbar-brand" href="#">Sticky top</a>
-    </nav>
-    <h1>Hello, world!</h1>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navigate</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">My Account</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Shop
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Apparel</a>
+                <a class="dropdown-item" href="#">Accessories</a>
+                <a class="dropdown-item" href="#">Home</a>
+                <a class="dropdown-item" href="#">Plushies</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Custom</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Basket</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <div class="container-sm">
+      <h1>Panda Patches</h1>
+    </div>
+    <div class="container-lg" id="featured-item-container">
+      <div class="row">
+        <div class="col-5" id="featured-item-img">
+          <img src="https://img.freepik.com/premium-photo/there-is-small-pig-wearing-scarf-sitting-log-generative-ai_958165-9149.jpg" alt="small-pig-wearing-scarf" class="img-fluid">
+        </div>
+        <div class="col-6" id = featured-item-desc>
+          <h2>Whosit Scarf</h2>
+          <p></p>
+          <p>A gorgeous handmade scarf with stripeys to remind you that life is short.</p>
+        </div>
+      </div>
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
