@@ -7,6 +7,11 @@
     background-color: #e4dad4;
 }
 
+.btn-info{
+    background-color: #e4dad4;
+    color: #000;
+}
+
 h2 {
     font-family: 'Permanent Marker', cursive;
 }
