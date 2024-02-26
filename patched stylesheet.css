@@ -1,14 +1,14 @@
 #featured-item-container {
     /* this is green background-color: #00644220;*/
-    background-color: #e4dad4;
+    background-color: #e4dad480;
 }
 
 .navbar {
-    background-color: #e4dad4;
+    background-color: #e4dad480;
 }
 
 .btn-info{
-    background-color: #e4dad4;
+    background-color: #e4dad480;
     color: #000;
 }
 
@@ -19,11 +19,27 @@ h2 {
 .carousel-inner > .item {
     width: 100%;
     height: 40%;
-  }
+}
 
-  @supports (-webkit-text-stroke: 3px black) {
-    h5, p {
-      -webkit-text-fill-color: black;
-      -webkit-text-stroke: .5px white;
-    }
+.nav-item:hover {
+  background-color: #e4dad4;
+}
+
+.carousel-caption {
+  background-color: #a07d6899;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.carousel-caption:hover{
+  background-color: #a07d68;
+}
+
+/* this makes it so the text has an outline, but it's too small to look nice, imo
+@supports (-webkit-text-stroke: 3px black) {
+  h5, p {
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: .5px white;
   }
+}
+*/
